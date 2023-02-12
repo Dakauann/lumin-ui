@@ -1,0 +1,117 @@
+export default function ButtonStyles() {
+  return {
+    ".btn": {
+      display: "flex",
+      gap: "0.5rem",
+      alignItems: "center",
+      textAlign: "center",
+      backgroundColor: "var(--color-primary)",
+      color: "white",
+      padding: "0.4rem 0.8rem",
+      borderRadius: "0.25rem",
+      width: "max-content",
+      boxShadow:
+        "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+      fontSize: "1rem",
+      fontWeight: "500",
+      lineHeight: "1.25rem",
+      "&:hover": {
+        backgroundColor: "var(--color-primary-darker)",
+      },
+      "&:active": {
+        backgroundColor: "var(--color-primary-even-darker)",
+      },
+      transition: "all 0.2s ease-in-out",
+    },
+    ".btn-secondary": {
+      display: "flex",
+      gap: "0.5rem",
+      alignItems: "center",
+      backgroundColor: "var(--color-secondary)",
+      color: "white",
+      textAlign: "center",
+      padding: "0.4rem 0.8rem",
+      borderRadius: "0.25rem",
+      width: "max-content",
+      boxShadow:
+        "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+      fontSize: "1rem",
+      fontWeight: "500",
+      lineHeight: "1.25rem",
+      "&:hover": {
+        backgroundColor: "var(--color-secondary-lighter)",
+      },
+      "&:active": {
+        backgroundColor: "var(--color-secondary-even-lighter)",
+      },
+      transition: "all 0.2s ease-in-out",
+    },
+    ".btn-outline": {
+      display: "flex",
+      gap: "0.5rem",
+      alignItems: "center",
+      backgroundColor: "transparent",
+      border: "2px solid var(--color-primary)",
+      color: "var(--color-primary)",
+      textAlign: "center",
+      padding: "0.4rem 0.8rem",
+      borderRadius: "0.25rem",
+      fontSize: "1rem",
+      fontWeight: "500",
+      width: "max-content",
+      lineHeight: "1.25rem",
+      "&:hover": {
+        backgroundColor: "var(--color-primary)",
+        color: "white",
+      },
+      "&:active": {
+        backgroundColor: "var(--color-primary-darker)",
+      },
+      transition: "all 0.2s ease-in-out",
+    },
+    ".btn-ghost": {
+      display: "flex",
+      gap: "0.5rem",
+      alignItems: "center",
+      backgroundColor: "transparent",
+      textAlign: "center",
+      padding: "0.4rem 0.8rem",
+      width: "max-content",
+      borderRadius: "0.25rem",
+      fontSize: "1rem",
+      fontWeight: "500",
+      lineHeight: "1.25rem",
+      "&:hover": {
+        backgroundColor: "rgb(229 231 235)",
+        color: "black",
+      },
+      "&:active": {
+        backgroundColor: "var(--color-primary)",
+      },
+      transition: "all 0.2s ease-in-out",
+    },
+    ".btn-warning": {
+      display: "flex",
+      gap: "0.5rem",
+      alignItems: "center",
+      textAlign: "center",
+      backgroundColor: "red",
+      color: "white",
+      padding: "0.4rem 0.8rem",
+      borderRadius: "0.25rem",
+      width: "max-content",
+      boxShadow:
+        "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+      fontSize: "1rem",
+      fontWeight: "500",
+      lineHeight: "1.25rem",
+      "&:hover": {
+        backgroundColor: "darkred",
+      },
+      "&:active": {
+        backgroundColor: "maroon",
+      },
+      transition: "all 0.2s ease-in-out",
+    },
+  };
+}
