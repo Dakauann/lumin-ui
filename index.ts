@@ -10,7 +10,6 @@ import ModalStyles from "./components/ModalStyles";
 export default plugin(function ({ addComponents, theme, addBase }) {
   const base = {
     ":root": {
-      // primary and secondary color variants
       "--color-primary-values": "0, 80%",
       "--color-secondary-values": "246, 0%",
       "--color-primary": "hsl(var(--color-primary-values), 50%)",
@@ -19,11 +18,15 @@ export default plugin(function ({ addComponents, theme, addBase }) {
       "--color-primary-even-darker": "hsl(var(--color-primary-values), 20%)",
       "--color-primary-even-lighter": "hsl(var(--color-primary-values), 80%)",
       "--color-secondary": "hsl(var(--color-secondary-values), 3%)",
-      "--color-secondary-lighter": "hsl(var(--color-secondary-values), 15%)",
+      "--color-secondary-lighter": "hsl(var(--color-secondary-values), 10%)",
       "--color-secondary-darker": "hsl(var(--color-secondary-values), 1%)",
       "--color-secondary-even-darker": "hsl(var(--color-secondary-values), 1%)",
       "--color-secondary-even-lighter":
-        "hsl(var(--color-secondary-values), 25%)",
+        "hsl(var(--color-secondary-values), 15%)",
+
+      "--color-neutral": "rgba(169, 169, 169, 0.15)",
+      "--color-neutral-lighter": "rgba(169, 169, 169, 0.25)",
+      "--color-neutral-darker": "rgba(169, 169, 169, 0.35)",
 
       "--bg-base-values": "220, 15%",
       "--bg-base-light-values": "217, 0%",

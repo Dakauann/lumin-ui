@@ -3,7 +3,7 @@ export default function InputStyles() {
     ".input-flushed": {
       backgroundColor: "transparent",
       border: "none",
-      borderBottom: "1px solid #cbd5e0",
+      borderBottom: "1px solid var(--color-neutral-darker)",
       padding: "0.5rem 0.3rem",
       fontSize: "1rem",
       fontWeight: "500",
@@ -14,7 +14,7 @@ export default function InputStyles() {
         borderBottom: "2px solid " + "var(--color-primary)",
       },
       "&::placeholder": {
-        color: "#cbd5e0",
+        color: "darkgray",
       },
       transition: "all 0.2s ease-in-out",
     },
@@ -29,20 +29,20 @@ export default function InputStyles() {
       color: "black",
       "&:focus": {
         outline: "none",
-        backgroundColor: "#cbd5e0",
+        backgroundColor: "var(--color-neutral-darker)",
       },
       "&::placeholder": {
-        color: "lightblack",
+        color: "darkgray",
       },
       "&:hover": {
-        backgroundColor: "#cbd5e0",
+        backgroundColor: "var(--color-neutral-darker)",
       },
       transition: "all 0.2s ease-in-out",
     },
     ".input-outline": {
       backgroundColor: "transparent",
       maxWidth: "100%",
-      border: "1px solid hsl(4, 0%, 50%)",
+      border: "1px solid var(--color-neutral-darker)",
       borderRadius: "0.3rem",
       padding: "0.7rem 0.3rem",
       fontSize: "1rem",
@@ -53,7 +53,7 @@ export default function InputStyles() {
         borderColor: "var(--color-primary)",
       },
       "&::placeholder": {
-        color: "#cbd5e0",
+        color: "darkgray",
       },
       transition: "all 0.2s ease-in-out",
     },
