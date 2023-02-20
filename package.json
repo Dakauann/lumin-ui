@@ -4,6 +4,7 @@
   "description": "A tailwind components utilities library",
   "main": "dist/cjs/index.js",
   "scripts": {
+    "dev:compiler": "nodemon --ignore dist --ext \"ts, js, cjs, mjs\" --exec \"npm run build:cjs\" ",
     "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs && echo 'Build finished!'",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",

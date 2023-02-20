@@ -16,7 +16,7 @@ export default function ButtonStyles() {
       fontWeight: "500",
       lineHeight: "1.25rem",
       "&:hover": {
-        backgroundColor: "rgba(0, 0, 0, 0.05)",
+        backgroundColor: "var(--color-primary-darker)",
       },
       "&:active": {
         backgroundColor: "var(--color-primary-even-darker)",

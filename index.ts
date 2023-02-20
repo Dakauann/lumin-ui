@@ -24,9 +24,9 @@ export default plugin(function ({ addComponents, theme, addBase }) {
       "--color-secondary-even-lighter":
         "hsl(var(--color-secondary-values), 15%)",
 
-      "--color-neutral": "rgba(169, 169, 169, 0.15)",
-      "--color-neutral-lighter": "rgba(169, 169, 169, 0.25)",
-      "--color-neutral-darker": "rgba(169, 169, 169, 0.35)",
+      "--color-neutral": "rgba(169, 169, 169, 0.05)",
+      "--color-neutral-lighter": "rgba(169, 169, 169, 0.15)",
+      "--color-neutral-darker": "rgba(169, 169, 169, 0.25)",
 
       "--bg-base-values": "220, 15%",
       "--bg-base-light-values": "217, 0%",

@@ -26,7 +26,6 @@ export default function InputStyles() {
       fontSize: "1rem",
       fontWeight: "500",
       lineHeight: "1.25rem",
-      color: "black",
       "&:focus": {
         outline: "none",
         backgroundColor: "var(--color-neutral-darker)",
