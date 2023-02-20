@@ -1,6 +1,6 @@
 {
   "name": "lumin-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tailwind components utilities library",
   "main": "dist/cjs/index.js",
   "scripts": {
