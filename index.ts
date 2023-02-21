@@ -37,11 +37,15 @@ export default plugin(function ({ addComponents, theme, addBase }) {
       "--bg-base-current": "hsl(var(--bg-base-current-values), 10%)",
       "--bg-base-current-darker": "hsl(var(--bg-base-current-values), 0%)",
       "--bg-base-current-lighter": "hsl(var(--bg-base-current-values), 15%)",
+
+      "--color-text-current": "black",
+
       transition: "color 0.2s ease-in-out, background-color 0.2s ease-in-out",
     },
     "body.dark-mode": {
       background: "var(--bg-base)",
       color: "white",
+      "--color-text-current": "white",
       "--bg-base-current-values": "var(--bg-base-values)",
       "--bg-base-current": "hsl(var(--bg-base-current-values), 10%)",
       "--bg-base-current-darker": "hsl(var(--bg-base-current-values), 0%)",
@@ -50,6 +54,7 @@ export default plugin(function ({ addComponents, theme, addBase }) {
     "body:not(.dark-mode)": {
       background: "var(--bg-base-light)",
       color: "black",
+      "--color-text-current": "black",
       "--bg-base-current-values": "var(--bg-base-light-values)",
       "--bg-base-current": "hsl(var(--bg-base-current-values), 100%)",
       "--bg-base-current-darker": "hsl(var(--bg-base-current-values), 90%)",

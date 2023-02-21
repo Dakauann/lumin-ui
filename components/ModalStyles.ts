@@ -29,11 +29,11 @@ export default function ModalStyles() {
       zIndex: "-1",
     },
     ".modal-container": {
-      backgroundColor: "white",
+      color: "var(--color-text-current)",
+      backgroundColor: "var(--bg-base-current)",
       paddingInline: "1rem",
       display: "flex",
       flexDirection: "column",
-      color: "black",
       shadow: "0 0 10px 0 rgba(0, 0, 0, 0.5)",
       width: "min-content",
       height: "max-content",
