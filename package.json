@@ -1,14 +1,13 @@
 {
   "name": "lumin-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tailwind components utilities library",
   "main": "dist/cjs/index.js",
   "scripts": {
     "dev:compiler": "nodemon --ignore dist --ext \"ts, js, cjs, mjs\" --exec \"npm run build:cjs\" ",
     "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs && echo 'Build finished!'",
     "build:esm": "tsc",
-    "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
-    "install": "npm run build"
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
   },
   "files": [
     "dist/**/*"
